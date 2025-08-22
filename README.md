@@ -27,7 +27,7 @@ It has multiple pages like **Home, Menu, About, Blog, Gallery, Contact, and Cart
 ## 🚀 How to Run This Project
 1. Download or clone this repository:  
    ```bash
-   git clone https://github.com/your-username/sipandserve.git
+   git clone https://github.com/SakthiHarishS/sipandserve.git
 
 2.Open the folder.
 
