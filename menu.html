@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SipAndServe | Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <div class="logo">☕ SipAndServe</div>
+    <nav id="navlinks">
+      <a href="index.html">Home</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="header-actions">
+      <div class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+      </div>
+      <div class="hamburger" id="hamb">☰</div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Our Menu</h2>
+      <div class="cart-notification" id="cartNotification"></div>
+      
+      <div class="cards">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80" alt="Espresso">
+          <h3>Espresso</h3>
+          <p>$3.50</p>
+          <button class="add-to-cart" data-name="Espresso" data-price="3.50">Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" alt="Cappuccino">
+          <h3>Cappuccino</h3>
+          <p>$4.00</p>
+          <button class="add-to-cart" data-name="Cappuccino" data-price="4.00">Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=600&q=80" alt="Latte">
+          <h3>Latte</h3>
+          <p>$4.50</p>
+          <button class="add-to-cart" data-name="Latte" data-price="4.50">Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=600&q=80" alt="Mocha">
+          <h3>Mocha</h3>
+          <p>$5.00</p>
+          <button class="add-to-cart" data-name="Mocha" data-price="5.00">Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=600&q=80" alt="Cold Brew">
+          <h3>Cold Brew</h3>
+          <p>$3.80</p>
+          <button class="add-to-cart" data-name="Cold Brew" data-price="3.80">Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=600&q=80" alt="Croissant">
+          <h3>Butter Croissant</h3>
+          <p>$2.50</p>
+          <button class="add-to-cart" data-name="Butter Croissant" data-price="2.50">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-column">
+        <h3>SipAndServe</h3>
+        <p>We're passionate about serving the highest quality coffee and creating a welcoming space for our community.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>Hours</h3>
+        <p>Monday-Friday: 7am-8pm</p>
+        <p>Saturday-Sunday: 8am-9pm</p>
+      </div>
+      <div class="footer-column">
+        <h3>Contact</h3>
+        <p>123 Coffee Street</p>
+        <p>Caffeine City, CC 12345</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@coffeeshop.com</p>
+      </div>
+      <div class="footer-column">
+        <h3>Links</h3>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; <span id="year"></span> SipAndServe. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

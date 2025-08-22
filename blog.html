@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SipAndServe | Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <div class="logo">☕ SipAndServe</div>
+    <nav id="navlinks">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="header-actions">
+      <div class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+      </div>
+      <div class="hamburger" id="hamb">☰</div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Our Blog</h2>
+      <div class="blog-grid">
+
+        <article class="blog-post">
+          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80" alt="Coffee Beans">
+          <h3>The Journey of Coffee Beans</h3>
+          <p class="short-text">From the lush fields of South America to your morning cup, discover the incredible journey of coffee beans.</p>
+          <div class="full-text hidden">
+            Coffee beans are grown across the globe, and each region gives them unique flavors. 
+            South American beans bring nutty and chocolate notes, while African beans add fruity and floral tones. 
+            From harvesting, roasting, and grinding — every step shapes the perfect brew.
+          </div>
+          <button class="read-more">Read More</button>
+        </article>
+
+        <article class="blog-post">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" alt="Latte Art">
+          <h3>Mastering Latte Art</h3>
+          <p class="short-text">Learn how our baristas create stunning latte art and get tips for making your own at home.</p>
+          <div class="full-text hidden">
+            Latte art begins with perfectly steamed milk, poured into rich espresso. 
+            The flow creates patterns like hearts, tulips, or rosettas. 
+            With patience and practice, anyone can turn their coffee into a work of art.
+          </div>
+          <button class="read-more">Read More</button>
+        </article>
+
+        <article class="blog-post">
+          <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=600&q=80" alt="Coffee Shop Interior">
+          <h3>Creating the Perfect Coffee Shop Vibe</h3>
+          <p class="short-text">We share our philosophy on creating a cozy, welcoming atmosphere for all coffee lovers.</p>
+          <div class="full-text hidden">
+            The best cafés feel like a second home. Warm lighting, comfy seating, inviting aromas, and friendly staff 
+            make every guest feel at ease. Music and décor complete the cozy coffee culture.
+          </div>
+          <button class="read-more">Read More</button>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-column">
+        <h3>SipAndServe</h3>
+        <p>We're passionate about serving the highest quality coffee and creating a welcoming space for our community.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>Hours</h3>
+        <p>Monday-Friday: 7am-8pm</p>
+        <p>Saturday-Sunday: 8am-9pm</p>
+      </div>
+      <div class="footer-column">
+        <h3>Contact</h3>
+        <p>123 Coffee Street</p>
+        <p>Caffeine City, CC 12345</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@coffeeshop.com</p>
+      </div>
+      <div class="footer-column">
+        <h3>Links</h3>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; <span id="year"></span> SipAndServe. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
